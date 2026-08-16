@@ -1,0 +1,13 @@
+{
+    "actorSpecification": 1,
+    "name": "medical-device-adverse-event-tracker",
+    "title": "Medical Device Adverse Event Tracker — FDA MAUDE Reports",
+    "description": "Search FDA MAUDE adverse event reports for medical devices by device name and event type (malfunction, injury, death). Raw incident reports, not official recalls, for device safety monitoring.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "output": "./output_schema.json",
+    "dockerfile": "../Dockerfile"
+}

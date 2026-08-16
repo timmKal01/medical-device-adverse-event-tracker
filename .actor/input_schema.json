@@ -1,0 +1,40 @@
+{
+    "title": "Medical Device Adverse Event Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "deviceName": {
+            "title": "Device name",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Free-text search across the device's generic name (e.g. \"insulin pump\", \"pacemaker\", \"hip implant\"). Leave blank to skip device-name filtering."
+        },
+        "eventType": {
+            "title": "Event type",
+            "type": "string",
+            "editor": "select",
+            "description": "Malfunction = device didn't work as intended. Injury = a patient/user was harmed. Death = a death was associated with the device.",
+            "enum": ["all", "Malfunction", "Injury", "Death"],
+            "enumTitles": ["All event types", "Malfunction", "Injury", "Death"],
+            "default": "all"
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to search, by date the report was received by FDA.",
+            "default": 30,
+            "minimum": 1,
+            "maximum": 365
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of reports to return, most recently received first.",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 100
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "actorOutputSchemaVersion": 1,
+    "title": "Output schema of Medical Device Adverse Event Tracker",
+    "properties": {
+        "results": {
+            "type": "string",
+            "title": "Reports",
+            "template": "{{links.apiDefaultDatasetUrl}}/items"
+        }
+    }
+}
