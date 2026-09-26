@@ -1,0 +1,63 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "reportNumber",
+                    "eventType",
+                    "dateReceived",
+                    "dateOfEvent",
+                    "deviceGenericName",
+                    "deviceBrandName",
+                    "manufacturer",
+                    "productProblemFlag",
+                    "reporterOccupation"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "reportNumber": {
+                        "label": "Report number",
+                        "format": "text"
+                    },
+                    "eventType": {
+                        "label": "Event type",
+                        "format": "text"
+                    },
+                    "dateReceived": {
+                        "label": "Date received",
+                        "format": "text"
+                    },
+                    "dateOfEvent": {
+                        "label": "Date of event",
+                        "format": "text"
+                    },
+                    "deviceGenericName": {
+                        "label": "Device generic name",
+                        "format": "text"
+                    },
+                    "deviceBrandName": {
+                        "label": "Device brand name",
+                        "format": "text"
+                    },
+                    "manufacturer": {
+                        "label": "Manufacturer",
+                        "format": "text"
+                    },
+                    "productProblemFlag": {
+                        "label": "Product problem flag",
+                        "format": "boolean"
+                    },
+                    "reporterOccupation": {
+                        "label": "Reporter occupation",
+                        "format": "text"
+                    }
+                }
+            }
+        }
+    }
+}
