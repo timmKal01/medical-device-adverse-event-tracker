@@ -67,5 +67,5 @@ search returns 0 reports or 100.
 
 ## Related products
 
-- [Product Recall Alert](https://github.com/timmKal01/product-recall-alert) — official FDA drug, food, and device recalls, the confirmed-issue counterpart to this actor's raw incident reports
-- [Vehicle Complaint Tracker](https://github.com/timmKal01/vehicle-complaint-tracker) — the same raw-complaints-before-recall pattern for vehicles instead of medical devices
+- [FDA Recall Tracker](https://apify.com/m_ctim/product-recall-alert): official FDA drug, food, and device recalls, the confirmed-issue counterpart to this actor's raw incident reports
+- [Vehicle Complaint Lookup](https://apify.com/m_ctim/vehicle-complaint-tracker): the same raw-complaints-before-recall pattern for vehicles instead of medical devices
